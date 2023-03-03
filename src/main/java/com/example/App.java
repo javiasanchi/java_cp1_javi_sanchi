@@ -1,13 +1,16 @@
 package com.example;
 
+import com.example.repositories.BeerRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
 public class App {
 
 	public static void main(String[] args) {
-		SpringApplication.run(App.class, args);
+		ApplicationContext context = SpringApplication.run(App.class, args);
+		BeerRepository beerRepo = context.getBean(BeerRepository.class);
 	}
 
 }

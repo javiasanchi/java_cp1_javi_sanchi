@@ -18,5 +18,14 @@ Trabajo cp1 curso java Adecco
   - Creo atributos id, name, price, color, alcohol y available
   - Uso lombook para la estructura de la entity
   - Se añaden equals y hashCode
+4. Creando repository, lo hago con Spring Data Repository
+Apunte: hasta aquí sin ningún problema 
+5. Creando servicios BeerService e Impl, lo hago con la opción automática
+Apunte: La creación de los métodos me cuesta recordar la sintaxis 
+6. Creando controlador, tengo que acudir al ejemplo, por mi solo no se crearlo
+Apunte: tengo que repasar la funcionalidad del controlador
+Lanzo la App y me da error de pass que corrijo, todo funciona bien
+7. Copio y pego las líneas 15 y 16 de App
+Apunte: debo repasar la funcionalidad de estas líneas
   
   
