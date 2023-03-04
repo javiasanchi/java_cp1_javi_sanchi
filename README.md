@@ -1,5 +1,6 @@
 # java_cp1_javi_sanchi
 Trabajo cp1 curso java Adecco
+NO ESTA ACABADO POR NO PODER CORREGIR ERRORES
 1. Creación del proyecto con Spring Initializr
   - Maven, Java 19 
   - dependencias
@@ -27,5 +28,9 @@ Apunte: tengo que repasar la funcionalidad del controlador
 Lanzo la App y me da error de pass que corrijo, todo funciona bien
 7. Copio y pego las líneas 15 y 16 de App
 Apunte: debo repasar la funcionalidad de estas líneas
+Problemas al usar beerRepo para guardar datos demo, no lo reconoce
+El avance esta bloqueado al no compilar
+La aplicación falla por el siguiente error que no sé solucionar:
+   Parameter 0 of constructor in com.example.controller.BeerController required a bean of type 'com.example.services.BeerService' that could not be found.
   
   
